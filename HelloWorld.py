@@ -4,8 +4,8 @@
 # In python 3 input is used to read both string and integer from the user(Every input is condidered as string 'Str()')
 name=input("Your name please!!")
 age= input("and your age..")
-if name!=='':
-  if int(age)>30:
+if name!='':
+  if int(age)>50:
     print("Hello, "+ name + "You are old")
   else:
     print("Hello, " + name)
